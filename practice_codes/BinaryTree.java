@@ -139,6 +139,36 @@ public class BinaryTree {
         TreeInfo info=new TreeInfo(myHeight, myDiameter);
         return info;
     }
+    static int sumAtLevel(Node root,int level)
+    {
+        int currLevel=1,sum=-1;
+        Queue<Node> nodeQueue=new LinkedList<>();
+        nodeQueue.add(root);
+        nodeQueue.add(null);
+        while(!nodeQueue.isEmpty()&&currLevel<=level)
+        {
+            Node currNode=nodeQueue.remove();
+            if(currNode==null)
+            {
+                if(nodeQueue.isEmpty())
+                    break;
+                currLevel++;
+                nodeQueue.add(currNode);
+            }
+            else{
+                if(currNode.left != null)
+                    nodeQueue.add(currNode.left);
+                if(currNode.right!= null)
+                    nodeQueue.add(currNode.right);
+                if(currLevel==level)
+                    sum+=currNode.data;
+            }
+        }
+        if(sum==-1)
+            return -1;
+        else
+            return sum+1;
+    }
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -154,6 +184,7 @@ public class BinaryTree {
         System.out.println("");
         System.out.println(countNodes(root) + "-" + addNodes(root)+ "-" + height(root));
         System.out.println(diameter(root)+ "-" +diameter2(root).diameter);
+        System.out.println(sumAtLevel(root,3));
         sc.close();
     }
 }
