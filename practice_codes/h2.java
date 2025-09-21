@@ -1,3 +1,4 @@
+package first_repo.practice_codes;
 import java.util.*;
 
 class Student {

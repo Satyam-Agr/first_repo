@@ -1,4 +1,4 @@
-
+package first_repo.practice_codes;
 class Triangle {
  double area;
  int height;

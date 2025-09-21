@@ -1,4 +1,4 @@
-
+package first_repo.practice_codes;
 import java.util.*;
 public class chatToLast {
 
