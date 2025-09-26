@@ -19,7 +19,11 @@ public class BinaryTree {
     {
         idx++;
         if(nodes[idx]==-1)
+        {
+            if(idx==nodes.length-1)
+                idx=-1;
             return null;
+        }
         Node current=new Node(nodes[idx]);
         current.left=creatBinaryTree(nodes);
         current.right=creatBinaryTree(nodes);
