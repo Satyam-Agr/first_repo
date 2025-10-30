@@ -420,4 +420,3 @@ public class LUDO {
         return list;
     }
 }
-
