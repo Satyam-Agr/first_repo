@@ -1,3 +1,5 @@
+
+package first_repo.codeforces;
 import java.util.*;
 public class B_Bitwise_Reversion {
     public static void main(String[] args) {
@@ -24,5 +26,6 @@ public class B_Bitwise_Reversion {
             }
             System.out.println(ok ? "YES" : "NO");
         }
+        sc.close();
     }
 }

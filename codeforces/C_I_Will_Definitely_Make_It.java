@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.*;
 import java.io.*;
 public class C_I_Will_Definitely_Make_It {

@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.*;
 import java.io.*;
 
@@ -5,7 +6,7 @@ public class C_Trip_Shopping {
     static void solve(BufferedReader br) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
-        int k = Integer.parseInt(st.nextToken()); // not used
+        Integer.parseInt(st.nextToken()); // not used
 
         int[] a = new int[n];
         st = new StringTokenizer(br.readLine());

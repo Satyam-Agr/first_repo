@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.*;
 import java.io.*;
 public class E_khba_Loves_to_Sleep {

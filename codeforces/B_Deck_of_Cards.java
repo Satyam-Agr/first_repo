@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.Scanner;
 
 public class B_Deck_of_Cards {

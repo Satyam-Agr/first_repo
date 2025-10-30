@@ -1,4 +1,4 @@
-/*There are n
+package first_repo.codeforces;/*There are n
  different types of magical materials, numbered from 1
  to n
 . Initially, you have ai

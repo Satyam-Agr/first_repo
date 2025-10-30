@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 /*You are given an array a
  consisting of n
  integers.

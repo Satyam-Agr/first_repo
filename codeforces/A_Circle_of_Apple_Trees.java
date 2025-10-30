@@ -1,4 +1,4 @@
-import java.util.*;
+package first_repo.codeforces;import java.util.*;
 import java.io.*;
 public class A_Circle_of_Apple_Trees {
 public static void main(String[] args) throws Exception {

@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.Scanner;
 
 public class C_Even_Larger {

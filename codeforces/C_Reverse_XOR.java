@@ -1,4 +1,5 @@
-import java.util.*;
+package first_repo.codeforces;
+
 import java.io.*;
 public class C_Reverse_XOR {
     public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-import java.util.*;
+package first_repo.codeforces;import java.util.*;
 import java.io.*;
 public class A_Square {
 

@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 //1650/problem/C
 import java.util.ArrayList;
 import java.util.Collections;

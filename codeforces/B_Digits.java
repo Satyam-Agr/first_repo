@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 /*Artem wrote the digit d on the board exactly n! times in a row. So, he got the number dddddd…ddd
 (exactly n! digits).
 Now he is curious about which odd digits from 1 to 9 divide the number written on the board.

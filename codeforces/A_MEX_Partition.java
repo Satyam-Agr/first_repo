@@ -1,4 +1,4 @@
-import java.io.*;
+package first_repo.codeforces;import java.io.*;
 import java.util.*;
 
 public class A_MEX_Partition {

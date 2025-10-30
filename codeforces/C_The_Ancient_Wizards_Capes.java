@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 //2155 C
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

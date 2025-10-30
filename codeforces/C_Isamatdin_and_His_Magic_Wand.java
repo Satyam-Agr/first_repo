@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 import java.util.*;
 import java.io.*;
 public class C_Isamatdin_and_His_Magic_Wand {

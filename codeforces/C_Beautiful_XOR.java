@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 //2162/problem/C
 import java.util.*;
 import java.io.*;
@@ -12,7 +13,6 @@ public class C_Beautiful_XOR {
         if(binaryA.length()<binaryB.length())
             return "-1";
 
-        int out1=0;
         StringBuilder sb = new StringBuilder();
         if(binaryA.length()==binaryB.length())
         {

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package first_repo.codeforces;import java.util.Scanner;
 
 public class A_El_fucho {
     public static void main(String[] args)

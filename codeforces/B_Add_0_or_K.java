@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 /*You are given an array of n
  positive integers a1,a2,…,an
  and a positive integer k

@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 /*Given an array a
  and n
  integers. It is sorted in non-decreasing order, that is, ai≤ai+1

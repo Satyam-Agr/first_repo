@@ -1,3 +1,4 @@
+package first_repo.codeforces;
 /*Alice and Bob are playing a game. They have n
  cards numbered from 1
  to n

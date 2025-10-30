@@ -1,4 +1,5 @@
-import java.util.*;
+package first_repo.codeforces;
+
 import java.io.*;
 public class B_Beautiful_String {
 
