@@ -3,9 +3,9 @@ import java.util.*;
 import java.io.*;
 public class C_I_Will_Definitely_Make_It {
 
-    static String solve(int [] towers,int n, int k)
+    static String solve(long [] towers,int n, int k)
     {
-        int currHeight=towers[k-1];
+        long currHeight=towers[k-1];
         towers[k-1]=0;
         int waterLevel=0;
         Arrays.sort(towers);
@@ -13,13 +13,13 @@ public class C_I_Will_Definitely_Make_It {
         while (currHeight>= towers[i])
         {
             i++;
-            if(i==n-1)
-                break;
+            if(i==n)
+                return "YES";
         }
-        for (; i < n; i++) 
+        for (; i < n; i++)
         {
-            int diff=towers[i]-currHeight;
-            int hight=currHeight-waterLevel;
+            long diff=towers[i]-currHeight;
+            long hight=currHeight-waterLevel;
             if(hight<diff)
             {
                 return "NO";
@@ -48,9 +48,9 @@ public class C_I_Will_Definitely_Make_It {
             int n = Integer.parseInt(st.nextToken());
             int k = Integer.parseInt(st.nextToken());
             st = new StringTokenizer(br.readLine());
-            int[] towers=new int[n];
+            long[] towers=new long[n];
             for (int i = 0; i < n; i++)
-                towers[i] = Integer.parseInt(st.nextToken());
+                towers[i] = Long.parseLong(st.nextToken());
             sb.append(solve(towers, n, k)).append('\n');
         }
         System.out.print(sb.toString());
