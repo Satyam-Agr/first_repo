@@ -1,4 +1,4 @@
-package first_repo;
+package first_repo.projects;
 
 import javax.swing.*;
 import java.awt.*;

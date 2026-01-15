@@ -164,6 +164,7 @@ class game
 			
 		}
 		while(retry);
+		sc.close();
 		return st;
 	}
 	

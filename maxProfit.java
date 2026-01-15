@@ -1,6 +1,5 @@
 //This takes too much time the next one is good(the one in comments)
 package first_repo;
-import java.io.*;
 import java.util.*;
 
 public class maxProfit
@@ -21,7 +20,8 @@ public class maxProfit
         if(profit==-1)
             System.out.print("Got caught!");
         else 
-            System.out.print(profit);    
+            System.out.print(profit);   
+        sc.close(); 
     }
     static int result (int x,int[][]value)
     {

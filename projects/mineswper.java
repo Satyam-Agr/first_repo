@@ -1,4 +1,4 @@
-package first_repo;
+package first_repo.projects;
 import java.util.*;
 import javax.swing.JButton;
 import javax.swing.JComponent;
