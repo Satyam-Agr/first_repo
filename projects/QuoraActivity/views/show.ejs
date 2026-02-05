@@ -1,0 +1,17 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Post</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+    </head>
+    <body>
+        <h1>ID: <%= post.id %></h1>
+        <div class="post">
+                    <h2 class="user"><%= post.username %></h2>
+                    <p class="content"><%= post.content %></p>
+        </div>
+        <a href="http://localhost:3000/posts" class="link">← Back to Posts</a>
+
+    </body>
+</html>
